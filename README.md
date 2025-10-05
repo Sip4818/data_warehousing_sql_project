@@ -76,28 +76,25 @@ Integration of ERP and CRM source systems ensures all necessary business data is
 ---
 
 ## 🔗 Repository Structure
+```
 data-warehouse-project/
-│
-├── datasets/                           # Raw datasets from ERP and CRM
-│
-├── docs/                               # Documentation and diagrams
-│   ├── data_architecture.png           # Data warehouse architecture
-│   ├── data_flow.png                   # Data flow diagram
-│   ├── data_models.png                 # Star schema data model
-│   ├── data_catalog.md                 # Dataset catalog and metadata
-│   ├── naming-conventions.md           # Naming guidelines
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Raw data loading scripts
-│   ├── silver/                         # Cleansing and transformation scripts
-│   ├── gold/                           # Star schema and analytics models
-│
-├── tests/                              # Data validation and testing scripts
-│
-├── README.md                           # Project documentation
-├── LICENSE                             # License information
-├── .gitignore                          # Git ignore settings
-└── requirements.txt                    # Optional dependencies
+├── datasets/                # Raw datasets from ERP and CRM
+├── docs/                    # Documentation and diagrams
+│   ├── data_architecture.png  # Data warehouse architecture
+│   ├── data_flow.png          # Data flow diagram
+│   ├── data_models.png        # Star schema data model
+│   ├── data_catalog.md        # Dataset catalog and metadata
+│   └── naming-conventions.md  # Naming guidelines
+├── sql/                     # SQL scripts for ETL and transformations
+│   ├── bronze/               # Raw data loading scripts
+│   ├── silver/               # Cleansing and transformation scripts
+│   └── gold/                 # Star schema and analytics models
+├── tests/                   # Data validation and testing scripts
+├── README.md                # Project documentation
+├── LICENSE                  # License information
+├── .gitignore               # Git ignore settings
+└── requirements.txt         # Optional dependencies
+```
 
 ---
 
